@@ -1,0 +1,37 @@
+# Git
+
+.git/
+
+# Java and Spring Boot build files
+
+**/target/
+**/build/
+*.class
+*.jar
+*.war
+
+# IDE files
+
+.idea/
+.vscode/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+**/application-local.properties
+
+# Logs
+
+*.log
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+# Local database backups
+
+*.sql.bak
+*.dump
